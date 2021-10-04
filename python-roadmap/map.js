@@ -3,7 +3,7 @@ $('.part').hover(
         $('.mapdesc').html($(this).attr('desc-data'));
         $('.mapdesc').fadeIn();
     },
-    function () {
-        $('.mapdesc').fadeOut(5000);
-    }
+    // function () {
+    //     $('.mapdesc').fadeOut(50000);
+    // }
 )
